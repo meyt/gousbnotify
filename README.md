@@ -9,12 +9,14 @@ USB connect/disconnect notifications for Linux.
 - Portable, just single binary (default sounds embedded)
 - No Distro or DE restriction
 
+![image](https://github.com/user-attachments/assets/c2cf19c1-9b85-4426-8843-09e89b785dd8)
+
 ## Install
 
 ```bash
 mkdir ~/.local/bin
 cd ~/.local/bin
-wget -O gousbnotify https://github.com/meyt/gousbnotify/releases/latest/download/gousbnotify-linux-amd64`
+wget -O gousbnotify https://github.com/meyt/gousbnotify/releases/latest/download/gousbnotify-linux-amd64
 chmod +x gousbnotify
 gousbnotify -install
 ```
