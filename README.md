@@ -26,7 +26,7 @@ chmod +x gousbnotify
 Now you can run it
 
 ```bash
-gousbnotify
+./gousbnotify
 ```
 
 ## Parameters
@@ -43,7 +43,7 @@ All parameters can be used with or without `-install`
 For example:
 
 ```bash
-gousbnotify -install \
+./gousbnotify -install \
     -connect-sound="/mnt/drivec/Windows/Media/Windows Hardware Insert.wav"
     -disconnect-sound="/mnt/drivec/Windows/Media/Windows Hardware Remove.wav"
 ```
